@@ -1,0 +1,13 @@
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__img {
+    height: 15rem;
+    width: 10rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    background-color: aquamarine;
+  }
+}

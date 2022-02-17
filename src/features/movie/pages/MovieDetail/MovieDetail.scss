@@ -1,0 +1,46 @@
+.movie-detail {
+  margin-top: 2rem;
+  &__img {
+    display: flex;
+    justify-content: center;
+    & > img {
+      border-radius: 1rem;
+    }
+  }
+  &__title {
+    font-size: 2.2rem;
+    font-weight: 700;
+  }
+  &__type {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  &__tagline {
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: italic;
+    color: gray;
+  }
+
+  &__overview {
+    &--strong {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin: 0;
+      padding: 0 !important;
+      line-height: 2;
+    }
+  }
+  &__creator {
+    margin-top: 2rem !important;
+  }
+
+  &__rate > ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    &li {
+      background-color: black;
+    }
+  }
+}
